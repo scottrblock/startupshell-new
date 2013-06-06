@@ -1,0 +1,345 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+/* line 9, ../sass/html5-main.scss */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+
+/* line 13, ../sass/html5-main.scss */
+body {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* line 18, ../sass/html5-main.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 23, ../sass/html5-main.scss */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 28, ../sass/html5-main.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 37, ../sass/html5-main.scss */
+img {
+  vertical-align: middle;
+}
+
+/* line 41, ../sass/html5-main.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 47, ../sass/html5-main.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 51, ../sass/html5-main.scss */
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+/* line 63, ../sass/html5-main.scss */
+body {
+  font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+/* line 71, ../sass/html5-main.scss */
+.header-container {
+  border-bottom: 20px solid #e44d26;
+}
+
+/* line 76, ../sass/html5-main.scss */
+.footer-container,
+.main aside {
+  border-top: 20px solid #e44d26;
+}
+
+/* line 82, ../sass/html5-main.scss */
+.header-container,
+.footer-container,
+.main aside {
+  background: #f16529;
+}
+
+/* line 86, ../sass/html5-main.scss */
+.title {
+  color: white;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+/* line 94, ../sass/html5-main.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+/* line 103, ../sass/html5-main.scss */
+.main {
+  padding: 30px 0;
+}
+
+/* line 107, ../sass/html5-main.scss */
+.main article h1 {
+  font-size: 2em;
+}
+
+/* line 111, ../sass/html5-main.scss */
+.main aside {
+  color: white;
+  padding: 0px 5% 10px;
+}
+
+/* line 116, ../sass/html5-main.scss */
+.footer-container footer {
+  color: white;
+  padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+/* line 125, ../sass/html5-main.scss */
+.ie7 .title {
+  padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (min-width: 480px) {
+  /* ========================
+      INTERMEDIATE: IE Fixes
+     ======================== */
+  /* line 158, ../sass/html5-main.scss */
+  nav ul li {
+    display: inline;
+  }
+
+  /* line 162, ../sass/html5-main.scss */
+  .oldie nav a {
+    margin: 0 0.7%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* ====================
+      WIDE: CSS3 Effects
+     ==================== */
+  /* ============
+      WIDE: Menu
+     ============ */
+  /* line 179, ../sass/html5-main.scss */
+  .title {
+    float: left;
+  }
+
+  /* line 183, ../sass/html5-main.scss */
+  nav {
+    float: right;
+    width: 38%;
+  }
+
+  /* ============
+      WIDE: Main
+     ============ */
+  /* line 192, ../sass/html5-main.scss */
+  .main article {
+    float: left;
+    width: 57%;
+  }
+
+  /* line 197, ../sass/html5-main.scss */
+  .main aside {
+    float: right;
+    width: 28%;
+  }
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/* line 208, ../sass/html5-main.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+
+/* line 215, ../sass/html5-main.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/* line 222, ../sass/html5-main.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 227, ../sass/html5-main.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 239, ../sass/html5-main.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 248, ../sass/html5-main.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 253, ../sass/html5-main.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 258, ../sass/html5-main.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 262, ../sass/html5-main.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+@media print {
+  /* line 271, ../sass/html5-main.scss */
+  * {
+    background: transparent !important;
+    color: black !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 279, ../sass/html5-main.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 283, ../sass/html5-main.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 287, ../sass/html5-main.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+   */
+  /* line 297, ../sass/html5-main.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 302, ../sass/html5-main.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999999;
+    page-break-inside: avoid;
+  }
+
+  /* line 307, ../sass/html5-main.scss */
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  }
+
+  /* line 312, ../sass/html5-main.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 316, ../sass/html5-main.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 326, ../sass/html5-main.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 332, ../sass/html5-main.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
