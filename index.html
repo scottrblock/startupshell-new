@@ -30,9 +30,9 @@
         </div>
         <nav class="column6 prefix3 main-nav-list-wrapper">
           <ul id="main-nav-list" class="main-nav-list clearfix">
-            <li class="first active"><a href="#">Welcome</a></li>
-            <li><a href="#">Story</a></li>
-            <li><a href="#">Startups</a></li>
+            <li class="first active"><a href="#home-content">Welcome</a></li>
+            <li><a href="#story-content" id="story-link">Story</a></li>
+            <li><a href="#startup-content">Startups</a></li>
             <li><a href="#">Space</a></li>
             <li><a href="#">Events</a></li>
             <li><a href="#">Partners</a></li>
@@ -44,20 +44,76 @@
     </div>
   </div>
   
-  <div class="main-container-wrapper">
-    <div class="main-container container12">
-      <div class="main clearfix row">
-        <div class="column12">
-          <h1>
-            buildin shit
-          </h1>
+  <div class="main-container-wrapper" data-0="background-position-y: 0%;" data-400="background-position-y: 50%;" data-800="background-position-y: 50%;" data-1200="background-position-y: 100%;" data-1600="background-position-y: 100%;">
+    <div class="red-background">
+      <div class="main-container container12">
+       
+
+        <div class="main clearfix row">
+          <div class="column12 home-container" >
+            
+
+            <div class="section-content home-content" id="home-content" >
+              <div id="home-inner" class="section-inner" data-0="opacity: 1; top: 0%;" data-800="opacity:0; top: -100%;">
+                <h1 class="section-title" data-attr-count="0">These people are building something great.</h1>
+                <p class="section-text">
+                  Student-run entrepreneurship incubator at the University of Maryland, College Park.<br>
+                  Crazy people. Useful resources. Awesome projects.
+                </p>
+
+                <div class="section-bottom" id="home-bottom">
+                  <a href="#story-content" class="bottom-button">check it out</a>
+                </div>
+              </div>
+
+            </div>
+
+
+
+            <div class="section-content" id="story-content">
+              <div id="story-inner" class="section-inner" data-0="opacity: 1; height: 100%;" data-800="opacity: 1; height: 100%;" data-1600="opacity:0; top: -100%;">
+
+                <h1 class="section-title" data-attr-count="1">These things fell into place.</h1>
+                <p class="section-text">
+                  Stumptown dreamcatcher gentrify lomo pop-up direct trade. Bespoke swag cred Truffaut biodiesel food truck hella, cliche authentic mixtape. Mustache Marfa keytar, lomo tote bag tousled brunch asymmetrical shabby chic. Schlitz deep v narwhal, lo-fi sustainable squid kale chips farm-to-table YOLO pour-over Wes Anderson. Tumblr chillwave aesthetic, Cosby sweater bespoke meggings narwhal butcher YOLO DIY plaid.<br>
+                  Marfa aesthetic Tonx fingerstache. High Life scenester pour-over, try-hard yr occupy hoodie Banksy ethnic PBR Etsy photo booth Vice Cosby sweater. Art party four loko brunch, shabby chic put a bird on it mixtape skateboard scenester salvia pickled Austin. PBR squid blue bottle, before they sold out Schlitz chambray hoodie Odd Future fashion axe McSweeney's whatever you probably cliche biodiesel, fixie Tonx small batch yr craft beer 90's asymmetrical Godard locavore dreamcatcher fap.
+                </p>
+
+                <div class="section-bottom" id="story-bottom">
+                  <a href="#startup-content" class="bottom-button">what's next</a>
+                </div>
+              </div>
+              
+            </div>
+ 
+
+           <div class="section-content" id="startup-content" >
+             <h1 class="section-title" data-attr-count="2">These projects are making moves..</h1>
+             <p class="section-text">
+               Let's put a beautiful grid of our portfolio right here. Maybe they can be links to their angellist profile.
+               Or better yet, their VentureBoard profile!
+             </p>
+
+             <div class="section-bottom" id="story-bottom">
+               <a href="#startup-content" class="bottom-button">what's next</a>
+             </div>
+             
+           </div>
+          
+          </div>
         </div>
 
-      </div> <!-- #main -->
-    </div> <!-- #main-container -->
+
+
+       
+      </div>
+    </div>
   </div>
+
   
   
+
+  <!-- If we ever want a footer, we're ready
   <div class="footer-wrapper">
     <div class="footer-container container12">
       <footer class="row">
@@ -65,12 +121,16 @@
       </footer>
     </div>
   </div>
-
+  -->
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
   <script src="js/vendor/enquire.min.js"></script>
+  <script src="js/vendor/skroller.js"></script>
+  <script src="js/vendor/skrollr.menu.js"></script>
+  <script src="js/vendor/jquery.waypoint.min.js"></script>
+  <script src="js/vendor/jquery.scrollto.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

@@ -109,23 +109,18 @@ nav ul {
 /* ==============
     MOBILE: Main
    ============== */
-/* line 103, ../sass/html5-main.scss */
-.main {
-  padding: 30px 0;
-}
-
-/* line 107, ../sass/html5-main.scss */
+/* line 105, ../sass/html5-main.scss */
 .main article h1 {
   font-size: 2em;
 }
 
-/* line 111, ../sass/html5-main.scss */
+/* line 109, ../sass/html5-main.scss */
 .main aside {
   color: white;
   padding: 0px 5% 10px;
 }
 
-/* line 116, ../sass/html5-main.scss */
+/* line 114, ../sass/html5-main.scss */
 .footer-container footer {
   color: white;
   padding: 20px 0;
@@ -134,7 +129,7 @@ nav ul {
 /* ===============
     ALL: IE Fixes
    =============== */
-/* line 125, ../sass/html5-main.scss */
+/* line 123, ../sass/html5-main.scss */
 .ie7 .title {
   padding-top: 20px;
 }
@@ -149,12 +144,12 @@ nav ul {
   /* ========================
       INTERMEDIATE: IE Fixes
      ======================== */
-  /* line 158, ../sass/html5-main.scss */
+  /* line 156, ../sass/html5-main.scss */
   nav ul li {
     display: inline;
   }
 
-  /* line 162, ../sass/html5-main.scss */
+  /* line 160, ../sass/html5-main.scss */
   .oldie nav a {
     margin: 0 0.7%;
   }
@@ -166,12 +161,12 @@ nav ul {
   /* ============
       WIDE: Menu
      ============ */
-  /* line 179, ../sass/html5-main.scss */
+  /* line 177, ../sass/html5-main.scss */
   .title {
     float: left;
   }
 
-  /* line 183, ../sass/html5-main.scss */
+  /* line 181, ../sass/html5-main.scss */
   nav {
     float: right;
     width: 38%;
@@ -180,13 +175,13 @@ nav ul {
   /* ============
       WIDE: Main
      ============ */
-  /* line 192, ../sass/html5-main.scss */
+  /* line 190, ../sass/html5-main.scss */
   .main article {
     float: left;
     width: 57%;
   }
 
-  /* line 197, ../sass/html5-main.scss */
+  /* line 195, ../sass/html5-main.scss */
   .main aside {
     float: right;
     width: 28%;
@@ -195,7 +190,7 @@ nav ul {
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-/* line 208, ../sass/html5-main.scss */
+/* line 206, ../sass/html5-main.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -203,7 +198,7 @@ nav ul {
   *text-indent: -9999px;
 }
 
-/* line 215, ../sass/html5-main.scss */
+/* line 213, ../sass/html5-main.scss */
 .ir:before {
   content: "";
   display: block;
@@ -211,13 +206,13 @@ nav ul {
   height: 150%;
 }
 
-/* line 222, ../sass/html5-main.scss */
+/* line 220, ../sass/html5-main.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 227, ../sass/html5-main.scss */
+/* line 225, ../sass/html5-main.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -229,7 +224,7 @@ nav ul {
   width: 1px;
 }
 
-/* line 239, ../sass/html5-main.scss */
+/* line 237, ../sass/html5-main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -240,24 +235,24 @@ nav ul {
   width: auto;
 }
 
-/* line 248, ../sass/html5-main.scss */
+/* line 246, ../sass/html5-main.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 253, ../sass/html5-main.scss */
+/* line 251, ../sass/html5-main.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
   display: table;
 }
 
-/* line 258, ../sass/html5-main.scss */
+/* line 256, ../sass/html5-main.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 262, ../sass/html5-main.scss */
+/* line 260, ../sass/html5-main.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -266,7 +261,7 @@ nav ul {
    Print styles
    ========================================================================== */
 @media print {
-  /* line 271, ../sass/html5-main.scss */
+  /* line 269, ../sass/html5-main.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -275,18 +270,18 @@ nav ul {
     text-shadow: none !important;
   }
 
-  /* line 279, ../sass/html5-main.scss */
+  /* line 277, ../sass/html5-main.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 283, ../sass/html5-main.scss */
+  /* line 281, ../sass/html5-main.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 287, ../sass/html5-main.scss */
+  /* line 285, ../sass/html5-main.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -294,33 +289,33 @@ nav ul {
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 297, ../sass/html5-main.scss */
+  /* line 295, ../sass/html5-main.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 302, ../sass/html5-main.scss */
+  /* line 300, ../sass/html5-main.scss */
   pre,
   blockquote {
     border: 1px solid #999999;
     page-break-inside: avoid;
   }
 
-  /* line 307, ../sass/html5-main.scss */
+  /* line 305, ../sass/html5-main.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */
   }
 
-  /* line 312, ../sass/html5-main.scss */
+  /* line 310, ../sass/html5-main.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 316, ../sass/html5-main.scss */
+  /* line 314, ../sass/html5-main.scss */
   img {
     max-width: 100% !important;
   }
@@ -329,7 +324,7 @@ nav ul {
     margin: 0.5cm;
 }
 
-  /* line 326, ../sass/html5-main.scss */
+  /* line 324, ../sass/html5-main.scss */
   p,
   h2,
   h3 {
@@ -337,7 +332,7 @@ nav ul {
     widows: 3;
   }
 
-  /* line 332, ../sass/html5-main.scss */
+  /* line 330, ../sass/html5-main.scss */
   h2,
   h3 {
     page-break-after: avoid;
